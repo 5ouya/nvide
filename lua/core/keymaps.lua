@@ -13,3 +13,8 @@ map("n", "<leader>e", ":NvimTreeToggle<CR>")
 map("n", "<leader>ff", ":Telescope find_files<CR>")
 map("n", "<leader>f", ":NvimTreeFocus<CR>")
 map("n", "<leader>g", ":Neogit<CR>")
+
+-- better indent
+map("v", ">", ">gv")
+map("v", "<", "<gv")
+
