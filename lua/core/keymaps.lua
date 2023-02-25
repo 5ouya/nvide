@@ -7,6 +7,7 @@ local function map(mode, lhs, rhs, opts)
 end
 
 vim.g.mapleader = " " -- make sure to set `mapleader` before lazy so your mappings are correct
+vim.wo.number = true
 
 map("n", "<leader>e", ":NvimTreeToggle<CR>")
 map("n", "<leader>ff", ":Telescope find_files<CR>")
