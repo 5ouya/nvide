@@ -1,3 +1,3 @@
 return {
-  'nvim-treesitter/nvim-treesitter'
+	"vim-treesitter/nvim-treesitter",
 }
