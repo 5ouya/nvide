@@ -26,6 +26,7 @@ require("lazy").setup({
 	require("plugins/telescope"),
 	require("plugins/surround"),
 	require("plugins/commentary"),
+	require("plugins/git"),
 
 	{
 		"NvChad/nvim-colorizer.lua",
