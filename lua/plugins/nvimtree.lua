@@ -18,6 +18,10 @@ return {
 				enable = true,
 				ignore = true,
 			},
+			update_focused_file = {
+				enable = true,
+				update_root = true,
+			},
 		})
 		vim.api.nvim_create_autocmd({ "VimEnter" }, {
 			callback = function(data)
