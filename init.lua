@@ -30,6 +30,7 @@ require("lazy").setup({
 	require("plugins/yanky"),
 	require("plugins/auto-save"),
 	require("plugins/formatter"),
+	require("plugins/git-signs"),
 
 	{
 		"NvChad/nvim-colorizer.lua",
