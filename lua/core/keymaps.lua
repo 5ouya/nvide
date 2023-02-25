@@ -18,3 +18,8 @@ map("n", "<leader>g", ":Neogit<CR>")
 map("v", ">", ">gv")
 map("v", "<", "<gv")
 
+-- yank
+vim.keymap.set({ "n", "x" }, "p", "<Plug>(YankyPutAfter)")
+vim.keymap.set({ "n", "x" }, "P", "<Plug>(YankyPutBefore)")
+vim.keymap.set({ "n", "x" }, "gp", "<Plug>(YankyGPutAfter)")
+vim.keymap.set({ "n", "x" }, "gP", "<Plug>(YankyGPutBefore)")

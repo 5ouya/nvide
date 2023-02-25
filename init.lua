@@ -27,6 +27,7 @@ require("lazy").setup({
 	require("plugins/surround"),
 	require("plugins/commentary"),
 	require("plugins/git"),
+	require("plugins/yanky"),
 
 	{
 		"NvChad/nvim-colorizer.lua",
