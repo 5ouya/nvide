@@ -23,6 +23,12 @@ npm i -g tree-sitter-cli
 cargo install tree-sitter-cli
 ```
 
+**stylua lua formatter (optional)**
+
+```bash
+cargo install stylua
+```
+
 ### Install
 
 ```bash
