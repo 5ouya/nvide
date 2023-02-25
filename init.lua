@@ -14,8 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 require("core/options")
 require("core/keymaps")
 
-require ('utils/fold')
-require ('utils/highlight-yank')
+require("utils/fold")
 
 require("lazy").setup({
 	require("plugins/tokyonight"),
