@@ -23,3 +23,7 @@ vim.keymap.set({ "n", "x" }, "p", "<Plug>(YankyPutAfter)")
 vim.keymap.set({ "n", "x" }, "P", "<Plug>(YankyPutBefore)")
 vim.keymap.set({ "n", "x" }, "gp", "<Plug>(YankyGPutAfter)")
 vim.keymap.set({ "n", "x" }, "gP", "<Plug>(YankyGPutBefore)")
+
+map("n", "<F7>", ":tabp<CR>")
+map("n", "<F8>", ":tabn<CR>")
+map("n", "<F9>", ":FormatWrite<CR>")
